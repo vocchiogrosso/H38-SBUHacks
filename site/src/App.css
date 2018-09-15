@@ -7,6 +7,7 @@
     width: 100%;
     position: absolute;
     left:0px;
+    text-decoration: none;
 }
 
     #A {
@@ -26,6 +27,26 @@
         background: linear-gradient(to right, #70e1f5, #ffd194);
         top:200%;
     }
+
+        #DL {
+            text-decoration: none;
+            color:white;
+            text-align: center;
+            text-decoration: none;
+            font-size:72px;
+            position: relative;
+            top:20%;
+        }
+
+        #EL {
+            text-decoration: none;
+            text-align: center;
+            text-decoration: none;
+            font-size:36px;
+            position: relative;
+            top:20%;
+        }
+
     #D {
         border-top: 1px solid black;
         background: #70e1f5;
@@ -65,9 +86,11 @@
         }
 
         #IT1 {
+            color:white;
+            text-shadow: 5px 5px 5px black;
             text-align: center;
             position: relative;
-            top:30%;
+            top:25%;
             font-size:72px;
             font-weight:bold;
             text-shadow: 2px solid black;
@@ -117,9 +140,13 @@
             #NB5{left:80%;top:0px;}
 
     .SubScreen {
-        background-color:none;
         height:85%;
         width:100%;
+    }
+
+    #HS {
+       background-image: url('./Photo01.png');
+       background-size: cover; 
     }
 
     .PersonalPanel {
