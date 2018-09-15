@@ -23,7 +23,7 @@ class App extends Component {
             <a href="#E"><div class="NavBarItem" id="NB5"><h2>Follow Us</h2></div></a>
           </div>
           <div class="SubScreen" id="HS">
-         
+            <h1 id="IT1">We. Change. Everything.</h1>
           </div>
         </div>
         <div className="Screen" id="B">
@@ -45,9 +45,9 @@ class App extends Component {
         <div className="Screen" id="E">
             <div className="SubScreen">
               <h2 class="HeadText">Follow Us</h2>
-              <a href="https://www.facebook.com/Solvr-240537483471698/?view_public_for=240537483471698" target="_blank"><div class="SocialLink" id="SL1"></div></a>
-              <a href="https://twitter.com/Solvr12"><div class="SocialLink" id="SL2"></div></a>
-              <div class="SocialLink" id="SL3"></div></a>
+              <a target="_blank" href="https://www.facebook.com/Solvr-240537483471698/?view_public_for=240537483471698" target="_blank"><div class="SocialLink" id="SL1"></div></a>
+              <a target="_blank" href="https://twitter.com/Solvr12"><div class="SocialLink" id="SL2"></div></a>
+              <a target="_blank" href="https://github.com/Sol-VR"><div class="SocialLink" id="SL3"></div></a>
             </div>
             <div className="Bar" id="Footer">
               <p>Made With <span class="R">&hearts;</span> By SolVR (C) 2018</p>

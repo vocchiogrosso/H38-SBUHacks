@@ -64,6 +64,15 @@
             animation: SlideDown 6s;
         }
 
+        #IT1 {
+            text-align: center;
+            position: relative;
+            top:30%;
+            font-size:72px;
+            font-weight:bold;
+            text-shadow: 2px solid black;
+            animation: SlideDown 6s;
+        }
 
         @keyframes SlideDown{
             0% { opacity: 0;}
@@ -196,6 +205,10 @@
                 border-radius: 10px;
                 height:60%;
                 width:25%;
+            }
+
+            .SocialLink:hover {
+                opacity: .8;
             }
 
                 #SL1 {
